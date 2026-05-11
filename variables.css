@@ -1,0 +1,15 @@
+:root {
+    --color-primary: #4F46E5;
+    --color-primary-hover: #4338CA;
+    --color-secondary: #111827;
+    --color-accent: #10B981;
+    --color-background: #F3F4F6;
+    --color-text-main: #374151;
+    --color-text-light: #6B7280;
+    --color-white: #FFFFFF;
+    --color-error: #EF4444;
+    
+    --font-main: 'Inter', sans-serif;
+    --border-radius: 8px;
+    --transition: all 0.3s ease;
+}

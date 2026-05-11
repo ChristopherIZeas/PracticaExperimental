@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Diseño - TechConf 2026</title>
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <h1>Sistema de Diseño <span>(Styleguide)</span></h1>
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link nav__link--cta">← Volver al Proyecto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div style="width: 100%">
+            <h2 style="margin-bottom: 10px; color: var(--color-secondary); font-size: 2.2rem;">Estandarización de Variables Globales</h2>
+            <p style="margin-bottom: 40px; color: var(--color-text-light); font-size: 1.1rem; max-width: 800px;">
+                Esta página documenta visualmente los tokens de diseño definidos en nuestro archivo <code>variables.css</code>. 
+                Utilizar variables globales asegura consistencia, facilita el mantenimiento y permite crear temas muy fácilmente en el futuro.
+            </p>
+
+            <section class="styleguide-section">
+                <h3 style="color: var(--color-secondary); border-bottom: 2px solid var(--color-background); padding-bottom: 10px;">1. Paleta de Colores</h3>
+                <p style="margin-top: 10px; color: var(--color-text-light);">Todos los colores de la aplicación provienen estrictamente de estas variables.</p>
+                
+                <div class="color-grid">
+                    <div class="color-card">
+                        <div class="color-swatch" style="background-color: var(--color-primary);">Aa</div>
+                        <div class="color-info">
+                            <div class="color-name">Primario (Indigo)</div>
+                            <div class="color-var">var(--color-primary)</div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background-color: var(--color-primary-hover);">Aa</div>
+                        <div class="color-info">
+                            <div class="color-name">Primario Hover</div>
+                            <div class="color-var">var(--color-primary-hover)</div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background-color: var(--color-secondary);">Aa</div>
+                        <div class="color-info">
+                            <div class="color-name">Secundario (Texto/Fondos)</div>
+                            <div class="color-var">var(--color-secondary)</div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background-color: var(--color-accent);">Aa</div>
+                        <div class="color-info">
+                            <div class="color-name">Acento (Éxito)</div>
+                            <div class="color-var">var(--color-accent)</div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background-color: var(--color-error);">Aa</div>
+                        <div class="color-info">
+                            <div class="color-name">Error / Peligro</div>
+                            <div class="color-var">var(--color-error)</div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch color-swatch--light" style="background-color: var(--color-background); border-bottom: 1px solid #E5E7EB;">Aa</div>
+                        <div class="color-info">
+                            <div class="color-name">Fondo Base</div>
+                            <div class="color-var">var(--color-background)</div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch color-swatch--light" style="background-color: var(--color-white); border-bottom: 1px solid #E5E7EB;">Aa</div>
+                        <div class="color-info">
+                            <div class="color-name">Blanco Superficies</div>
+                            <div class="color-var">var(--color-white)</div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background-color: var(--color-text-main);">Aa</div>
+                        <div class="color-info">
+                            <div class="color-name">Texto Principal</div>
+                            <div class="color-var">var(--color-text-main)</div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background-color: var(--color-text-light);">Aa</div>
+                        <div class="color-info">
+                            <div class="color-name">Texto Secundario (Gris)</div>
+                            <div class="color-var">var(--color-text-light)</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="styleguide-section">
+                <h3 style="color: var(--color-secondary); border-bottom: 2px solid var(--color-background); padding-bottom: 10px;">2. Tipografía</h3>
+                
+                <div class="typography-sample">
+                    <h1 style="margin-bottom: 15px; font-weight: 800; font-size: 2.5rem;">Encabezado H1 (Weight: 800)</h1>
+                    <h2 style="margin-bottom: 15px; font-weight: 600; font-size: 2rem;">Encabezado H2 (Weight: 600)</h2>
+                    <h3 style="margin-bottom: 15px; font-weight: 600; font-size: 1.5rem; color: var(--color-primary);">Encabezado H3 (Color Primario)</h3>
+                    <p style="font-weight: 400; font-size: 1.1rem; line-height: 1.6; color: var(--color-text-main);">
+                        Párrafo normal (Weight: 400). La tipografía del sitio web está estandarizada bajo la familia <strong>Inter</strong> de Google Fonts.
+                        Se accede a ella mediante la variable global <span class="font-var-badge">var(--font-main)</span> asignada a la etiqueta <code>body</code>.
+                        Esto garantiza una excelente legibilidad y que si a futuro cambiamos la fuente corporativa, se modifique en toda la aplicación con una sola línea de código.
+                    </p>
+                </div>
+            </section>
+
+            <section class="styleguide-section">
+                <h3 style="color: var(--color-secondary); border-bottom: 2px solid var(--color-background); padding-bottom: 10px;">3. Variables Estructurales y de Animación</h3>
+                <ul style="margin-top: 20px; list-style: none;">
+                    <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                        <div>
+                            <span style="font-size: 1.2rem;">🔹 <strong>Bordes (Radios):</strong></span> <br>
+                            <span class="color-var">var(--border-radius)</span>
+                        </div>
+                        <div class="demo-box" style="border-radius: 0;"></div> <span style="color: var(--color-text-light);">0px</span>
+                        <div class="demo-box" style="border-radius: var(--border-radius);"></div> <span style="color: var(--color-text-light);">8px (Estandarizado)</span>
+                        <div class="demo-box" style="border-radius: 50px;"></div> <span style="color: var(--color-text-light);">50px</span>
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 15px;">
+                        <div>
+                            <span style="font-size: 1.2rem;">⚡ <strong>Transiciones Suaves:</strong></span> <br>
+                            <span class="color-var">var(--transition)</span>
+                        </div>
+                        <button class="btn btn--primary" style="margin-left: 20px;">Pasa el cursor por aquí</button>
+                        <span style="color: var(--color-text-light); max-width: 300px;">Se utiliza <code>all 0.3s ease</code> para unificar el tiempo y estilo de todas las microinteracciones del sitio.</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="styleguide-section">
+                <h3 style="color: var(--color-secondary); border-bottom: 2px solid var(--color-background); padding-bottom: 10px;">4. Estados de Error en Formularios</h3>
+                <p style="margin-top: 10px; color: var(--color-text-light); margin-bottom: 20px;">
+                    Estas clases proporcionan feedback visual inmediato cuando falla la validación en los formularios.
+                </p>
+                <div style="background: var(--color-background); padding: 30px; border-radius: var(--border-radius); max-width: 500px;">
+                    <div class="form__group">
+                        <label for="demo-error">Ejemplo de Input (.input-error)</label>
+                        <input type="text" id="demo-error" class="input-error" value="Te" placeholder="Escribe tu nombre">
+                    </div>
+                    
+                    <div class="form__group form__group--checkbox">
+                        <label class="checkbox-label input-error-text">
+                            <input type="checkbox">
+                            Ejemplo de Checkbox (.input-error-text)
+                        </label>
+                    </div>
+
+                    <div class="form__error" style="display: block; margin-bottom: 0;">
+                        Mensaje de error general (.form__error)
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+</html>
