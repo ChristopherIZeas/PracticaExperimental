@@ -2,13 +2,13 @@
 
 Este proyecto consiste en un formulario de registro interactivo construido con tecnologías web estándar. Incluye un diseño responsivo utilizando Flexbox, estilos personalizados y validación del lado del cliente para asegurar la integridad de los datos ingresados.
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 *   **HTML5:** Estructura semántica del contenido.
 *   **CSS3:** Estilos, diseño responsivo (Flexbox) y variables personalizadas para una fácil adaptación temática.
 *   **JavaScript (Vanilla):** Lógica de validación del lado del cliente (nombre, correo electrónico, contraseñas, etc.) y manejo de eventos.
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 *   `index.html`: La página principal que contiene el formulario de registro.
 *   `style.css`: La hoja de estilos principal del proyecto.
@@ -16,7 +16,7 @@ Este proyecto consiste en un formulario de registro interactivo construido con t
 *   `script.js`: Archivo con la lógica de validación del formulario en JavaScript.
 *   `styleguide.html`: Guía de estilos del proyecto (si aplica).
 
-## 🚀 Instalación y Ejecución
+##  Instalación y Ejecución
 
 Al ser un proyecto estático compuesto únicamente por archivos de front-end (HTML, CSS y JS), **no requiere de ninguna instalación de dependencias ni un entorno de servidor complejo**.
 
@@ -36,7 +36,7 @@ Si deseas realizar cambios en el código y verlos reflejados automáticamente en
 3.  Haz clic derecho sobre el archivo `index.html` y selecciona la opción **"Open with Live Server"**.
 4.  El proyecto se abrirá en tu navegador predeterminado en una dirección local (ej. `http://127.0.0.1:5500/index.html`).
 
-## ✨ Características de Validación
+##  Características de Validación
 
 El formulario incluye las siguientes validaciones automáticas:
 
